@@ -1,25 +1,34 @@
 export default function Home() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-10">
       <section className="card">
-        <h1 className="text-4xl font-bold mb-3">Vende tus servicios como un SaaS</h1>
-        <p className="text-lg text-muted">QR para restaurantes, webs a medida y automatizaciones/chatbots. Cobros, facturas y upgrades con Stripe.</p>
-        <div className="mt-6 flex gap-3">
-          <a className="btn" href="/precios">Ver precios</a>
-          <a className="btn" href="/login">Entrar</a>
+        <span className="badge">SaaS para pymes</span>
+        <h1 className="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">
+          Vende tus servicios <span className="text-indigo-600">como un SaaS</span>
+        </h1>
+        <p className="mt-3 max-w-2xl text-lg text-slate-600">
+          QR para restaurantes, webs a medida y automatizaciones/chatbots. Cobros,
+          facturas y upgrades con Stripe.
+        </p>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <a className="btn btn-primary" href="/precios">Ver precios</a>
+          <a className="btn ring-1 ring-slate-200 bg-white/60" href="/login">Entrar</a>
         </div>
       </section>
-      <section className="grid md:grid-cols-3 gap-6">
-        {[
-          {t:"QR para restaurantes", d:"Genera y gestiona tus cartas con QR, edítalas al instante."},
-          {t:"Páginas web", d:"Landing estática o e‑commerce. Entrega rápida, diseño moderno."},
-          {t:"Automatizaciones & Chatbots", d:"Ahorra tiempo con flujos y bots a medida."},
-        ].map((x, i) => (
-          <div key={i} className="card">
-            <h3 className="text-xl font-semibold">{x.t}</h3>
-            <p className="text-muted mt-2">{x.d}</p>
-          </div>
-        ))}
+
+      <section className="grid gap-6 md:grid-cols-3">
+        <div className="card">
+          <h3 className="text-lg font-semibold">QR para restaurantes</h3>
+          <p className="mt-2 text-slate-600">Genera tu carta con QR y edítala en segundos.</p>
+        </div>
+        <div className="card">
+          <h3 className="text-lg font-semibold">Páginas web</h3>
+          <p className="mt-2 text-slate-600">Landing o e-commerce con diseño moderno y rápido.</p>
+        </div>
+        <div className="card">
+          <h3 className="text-lg font-semibold">Automatizaciones & Chatbots</h3>
+          <p className="mt-2 text-slate-600">Ahorra tiempo con flujos y bots a medida.</p>
+        </div>
       </section>
     </div>
   );
