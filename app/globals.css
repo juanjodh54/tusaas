@@ -1,0 +1,6 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+:root{ --brand:#2563eb; --text:#0f172a; --muted:#64748b; --bg:#f8fafc; --radius:14px; --shadow:0 8px 24px rgba(2,6,23,.08); }
+body{ background:var(--bg); color:var(--text); }
+.btn{ @apply inline-flex items-center justify-center px-5 py-3 rounded-xl shadow-soft transition; background:var(--brand); color:white; }
+.btn:hover{ filter:brightness(1.05); transform:translateY(-1px); }
+.card{ @apply rounded-xl shadow-soft p-6 bg-white; } .container{ @apply max-w-6xl mx-auto px-6; }
