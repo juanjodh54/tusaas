@@ -1,6 +1,10 @@
-@tailwind base; @tailwind components; @tailwind utilities;
-:root{ --brand:#2563eb; --text:#0f172a; --muted:#64748b; --bg:#f8fafc; --radius:14px; --shadow:0 8px 24px rgba(2,6,23,.08); }
-body{ background:var(--bg); color:var(--text); }
-.btn{ @apply inline-flex items-center justify-center px-5 py-3 rounded-xl shadow-soft transition; background:var(--brand); color:white; }
-.btn:hover{ filter:brightness(1.05); transform:translateY(-1px); }
-.card{ @apply rounded-xl shadow-soft p-6 bg-white; } .container{ @apply max-w-6xl mx-auto px-6; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{ @apply inline-flex items-center justify-center rounded-xl px-5 py-3 font-medium shadow ring-1 ring-black/5 transition; }
+.btn:hover{ @apply -translate-y-0.5; }
+.btn-primary{ @apply bg-indigo-600 text-white hover:bg-indigo-500; }
+
+.card{ @apply rounded-2xl bg-white/70 p-6 shadow-xl ring-1 ring-black/5 backdrop-blur; }
+.badge{ @apply inline-flex items-center rounded-full bg-indigo-600/10 px-3 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-600/20; }
