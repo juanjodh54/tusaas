@@ -1,0 +1,5 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="15" y="15" width="10" height="10" fill="currentColor" opacity="0.6"/>
+  <rect x="27" y="15" width="8" height="10" fill="currentColor" opacity="0.4"/>
+  <text x="75" y="24" fill="currentColor" fontSize="12" fontFamily="system-ui, sans-serif" fontWeight="600" textAnchor="middle" opacity="0.7">RestauTech</text>
+</svg>

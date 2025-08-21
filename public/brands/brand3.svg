@@ -1,0 +1,4 @@
+<svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="20,10 30,10 35,20 30,30 20,30 15,20" fill="currentColor" opacity="0.6"/>
+  <text x="75" y="24" fill="currentColor" fontSize="12" fontFamily="system-ui, sans-serif" fontWeight="600" textAnchor="middle" opacity="0.7">DigitalPlus</text>
+</svg>
