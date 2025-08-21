@@ -90,7 +90,7 @@ export default function RootLayout({ children }) {
                   <li><a href="/casos" className="hover:text-white transition-colors">Casos de éxito</a></li>
                   <li><a href="/precios" className="hover:text-white transition-colors">Precios</a></li>
                   <li><a href="mailto:juanjodh54@gmail.com" className="hover:text-white transition-colors">Contacto</a></li>
-                  <li><a href="/login" className="hover:text-white transition-colors">Acceso clientes</a></li>
+                  <li><a href="/dashboard" className="hover:text-white transition-colors">Acceso clientes</a></li>
                 </ul>
               </div>
             </div>
