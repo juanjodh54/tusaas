@@ -1,0 +1,11 @@
+<svg width="200" height="40" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#7C3AED"/>
+      <stop offset="100%" stopColor="#2563EB"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="28" fill="url(#brandGradient)" fontSize="24" fontFamily="Plus Jakarta Sans, system-ui, sans-serif" fontWeight="700" letterSpacing="-0.025em">
+    YouWebServices
+  </text>
+</svg>
